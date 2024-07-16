@@ -6,7 +6,7 @@ public class RunCommand {
 
     public static void main(String[] args) {
         // Команда для выполнения
-        String command = "ping -c 4 google.com"; // для Windows можно использовать "ping -n 4 google.com"
+        String command = "tcpdump"; // для Windows можно использовать "ping -n 4 google.com"
 
         try {
             // Создаем процесс для выполнения команды
